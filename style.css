@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background: url(Artboard0.png);
+    background-position:center;
+    background-size: cover;
+    /* z-index: 99; */
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 20px;
+
+}
+
+.child{
+    width: 100%;
+    height: 90vh;
+    padding: 80px;    
+    /* color:saddlebrown; */
+    /* color:saddlebrown; */
+}
+
+.heading{
+    font-size: 8em;
+}
+.sub-heading{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+button{
+    padding: 14px 26px;
+    font-size: 24px;
+    border-radius: 20px;
+    color:antiquewhite;
+    background-color: saddlebrown;
+    border: none;
+    margin-top:40px;
+    /* width: 200px; */
+}
+
+
+
+/* --------------------------------------------------------------- */
+#place{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left{
+    width: 35%;
+    height: 80vh;
+    /* border: 1px solid black; */
+
+    padding: 120px 10px;
+}
+.left p{
+    font-size: 20px;
+    width: 70%;
+    margin: 20px 0;
+}
+.left a{
+    color: brown;
+    font-size: 20px;
+}
+.right{
+    width: 65%;
+    height: 80vh;
+    /* border: 1px solid black; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box{
+    width: 240px;
+    height: 340px;
+
+    /* border: 1px solid black; */
+
+    border-radius: 20px;
+  
+}
+.b1{
+     background: url(b1.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.b2{
+     background: url(b2.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.b3{
+     background: url(b3.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+
+
+
+/* -------------------------------------------------- */
+#Heritage{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(233, 233, 233); 
+
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.mid{
+    height: 50vh;
+    width: 20%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+
+.list ul li{
+    width: fit-content;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.l1{
+    color: brown;
+    font-weight: 600;
+}
+.l2{
+    font-weight: 500;
+}
+.right2{
+    width: 40%;
+    height: 50vh;
+    /* border: 1px solid black; */
+
+    background: url(havamahal.jpg);
+    background-position:center;
+    background-size: cover;
+
+}
+
+#Culture{
+    width: 100%;
+    height: 100vh;
+
+    /* background: url(udaipur.jpg);
+    background-position:center;
+    background-size: cover; */
+}
+
+#Gallery{
+    width: 100%;
+    height: 100vh;
+
+    /* background: url(desert.jpg);
+    background-position:center;
+    background-size: cover; */
+}
